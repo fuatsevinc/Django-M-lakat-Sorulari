@@ -9,7 +9,7 @@ It follows the MTV (Model template view pattern).
 # S1 Django mimarisini tartışın.
 
 Ans. Geliştirici Modeli, görünümü ve şablonu sağlar ve ardından onu bir URL'ye eşler ve Django bunu kullanıcıya sunmak için sihri yapar.
-MTV'yi (Model şablon görünümü deseni) takip eder.
+MTV'yi (Model template view pattern) takip eder.
 <hr>
 <hr>
 
