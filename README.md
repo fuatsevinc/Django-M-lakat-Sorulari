@@ -1,4 +1,5 @@
-# Django-M-lakat-Sorulari
+# Django-Mulakat-Sorulari
+
 ## Q1. Discuss the Django architecture.
 
 Ans. The developer provides the Model, the view and the template then just maps it to a URL and Django does the magic to serve it to the user.
@@ -14,10 +15,10 @@ MTV'yi (Model şablon görünümü deseni) takip eder.
 
 ## Q2. Explain how you can set up the Database in Django.
 
-### Ans: You can use the command edit mysite/setting.py , it is a normal python module with module level representing Django settings.
+Ans: You can use the command edit mysite/setting.py , it is a normal python module with module level representing Django settings.
 
-### Django uses SQLite by default; it is easy for Django users as such it won’t require any other type of installation. 
-### In the case your database choice is different that you have to the following keys in the DATABASE ‘default’ item to match your database connection settings.
+Django uses SQLite by default; it is easy for Django users as such it won’t require any other type of installation. 
+In the case your database choice is different that you have to the following keys in the DATABASE ‘default’ item to match your database connection settings.
 
 Engines: you can change database by using ‘django.db.backends.sqlite3’ , ‘django.db.backeneds.mysql’, ‘django.db.backends.postgresql_psycopg2’,
 ‘django.db.backends.oracle’ and so on
@@ -64,6 +65,7 @@ DATABASES = {
 
 <hr>
 <hr>
+
 ## Q3. Give an example how you can write a VIEW in Django?
 
 Ans: This is how we can use write a view in Django:
@@ -95,6 +97,7 @@ def Current_datetime(request):
 
 <hr>
 <hr>
+
 ## Q4.  Mention what the Django templates consists of.
 
 Ans: The template is a simple text file.  It can create any text-based format like XML, CSV, HTML, etc. 
@@ -110,6 +113,7 @@ bu şablonun mantığını kontrol eder.
 
 <hr>
 <hr>
+
 ## Q5. Explain the use of session in Django framework?
 
 Ans: Django provides session that lets you store and retrieve data on a per-site-visitor basis.
@@ -127,6 +131,7 @@ Yani verilerin kendisi istemci tarafında saklanmaz. Bu güvenlik açısından g
 
 <hr>
 <hr>
+
 ## Q6. List out the inheritance styles in Django.
 
 Ans: In Django, there is three possible inheritance styles.
@@ -140,12 +145,13 @@ iii. Proxy models: You can use this model, If you only want to modify the Python
 
 Cevap: Django'da üç olası kalıtım stili vardır.
 
-### i. Soyut Temel Sınıflar: Bu stil, yalnızca ebeveyn sınıfının her çocuk modeli için yazmak istemediğiniz bilgileri tutmasını istediğinizde kullanılır.
-### ii. Çoklu Tablo Kalıtımı: Bu stil, mevcut bir modeli alt sınıflıyorsanız ve her modelin kendi veritabanı tablosuna sahip olması gerekiyorsa kullanılır.
-### iii. Proxy modelleri: Modelin alanlarını değiştirmeden sadece modelin Python düzeyindeki davranışını değiştirmek istiyorsanız bu modeli kullanabilirsiniz.
+ i. Soyut Temel Sınıflar: Bu stil, yalnızca ebeveyn sınıfının her çocuk modeli için yazmak istemediğiniz bilgileri tutmasını istediğinizde kullanılır.
+ ii. Çoklu Tablo Kalıtımı: Bu stil, mevcut bir modeli alt sınıflıyorsanız ve her modelin kendi veritabanı tablosuna sahip olması gerekiyorsa kullanılır.
+ iii. Proxy modelleri: Modelin alanlarını değiştirmeden sadece modelin Python düzeyindeki davranışını değiştirmek istiyorsanız bu modeli kullanabilirsiniz.
 
 <hr>
 <hr>
+
 ## Q7. How will you define Django ?
 
 Ans: Django is a web framework in python to develop a web application in python. Django is a free and open source web application framework, 
@@ -158,6 +164,7 @@ Python'da yazılmıştır. Django, daha hızlı ve daha az kodla daha iyi web uy
 
 <hr>
 <hr>
+
 ## Q8. Mention what are the features available in Django?
 
 Ans: Features available in Django are-
@@ -188,6 +195,7 @@ Security features
 
 <hr>
 <hr>
+
 ## Q9. Mention the architecture of Django architecture?
 
 Ans: Django architecture consists of-
@@ -208,6 +216,7 @@ Denetleyici: Django çerçevesi ve URL ayrıştırma
 
 <hr>
 <hr>
+
 ## Q10. Why Django should be used for web-development?
 
 Ans: It allows you to divide code modules into logical groups to make it flexible to change
@@ -230,6 +239,7 @@ Her şey python'da
 
 <hr>
 <hr>
+
 ## Q11. Explain how you can setup static files in Django?
 
 Ans: There are three main things required to set up static files in Django
@@ -249,6 +259,7 @@ PythonAnywhere web sekmesinde bir Statik Dosyalar girişi ayarlayın
 
 <hr>
 <hr>
+
 ## Q12. Explain how you can use file based sessions?
 
 Ans: To use file based session you have to set the SESSION_ENGINE settings to “django.contrib.sessions.backends.file”
@@ -260,6 +271,7 @@ Cevap: Dosya tabanlı oturumu kullanmak için SESSION_ENGINE ayarlarını “dja
 
 <hr>
 <hr>
+
 ## Q13. Explain the migration in Django and how you can do in SQL?
 
 Migration in Django is to make changes to your models like deleting a model, adding a field, etc. into your database schema.  
@@ -291,6 +303,7 @@ Bir dizinin otomatik olarak artan alan verileriyle eşitlenmediği durumları d�
 
 <hr>
 <hr>
+
 ## Q14. Mention what command line can be used to load data into Django?
 
 Ans: To load data into Django you have to use the command line Django-admin.py loaddata. 
@@ -304,6 +317,7 @@ Komut satırı verileri arar ve adlandırılmış fikstürlerin içeriğini veri
 
 <hr>
 <hr>
+
 ## Q15. Explain what does django-admin.py makemessages command is used for?
 
 This command line executes over the entire source tree of the current directory and abstracts all the strings marked for translation.  
@@ -317,6 +331,7 @@ Yerel dizinde bir mesaj dosyası oluşturur.
 
 <hr>
 <hr>
+
 ## Q16. Mention what does the Django field class types?
 
 Ans: Field class types determines -
@@ -335,6 +350,7 @@ Django admin'de ve otomatik olarak oluşturulan formlarda kullanılan minimum do
 
 <hr>
 <hr>
+
 ## Q17. What is the usage of middlewares in Django?
 
 Ans:
@@ -357,6 +373,7 @@ Aşağıda Django'da ara katman yazılımlarının kullanımı verilmiştir.
 
 <hr>
 <hr>
+
 ## Q18. What are the roles of receiver and sender in signals?
 
 Ans: The roles of receiver and sender in signals are-
@@ -369,6 +386,8 @@ Cevap: Sinyallerde alıcı ve göndericinin rolleri:
 Alıcı: Sinyale bağlanacak olan geri arama fonksiyonunu belirtir.
 Gönderici: Sinyalin alınacağı belirli bir göndericiyi belirtir.
 
+<hr>
+<hr>
 
 ## Q19. Is Django Stable?
 
@@ -381,6 +400,7 @@ Cevap: Evet, Django oldukça kararlıdır. Disqus, Instagram, Pinterest ve Mozil
 
 <hr>
 <hr>
+
 ## Q20.  Mention Caching Strategies That You Know In Django?
 
 Ans: Few caching strategies that are available in Django are as follows:-
@@ -402,6 +422,7 @@ Veritabanı önbelleğe alma
 
 <hr>
 <hr>
+
 ## Q21. Is Django a content management system (CMS)?
 
 Ans: No, Django is not a CMS. Instead, it is a Web framework and a programming tool that makes you able to build websites.
@@ -412,7 +433,8 @@ Ans: No, Django is not a CMS. Instead, it is a Web framework and a programming t
 Cevap: Hayır, Django bir CMS değildir. Bunun yerine, bir Web çerçevesi ve web siteleri oluşturmanızı sağlayan bir programlama aracıdır.
 
 
-
+<hr>
+<hr>
 
 ## Q22. What is the usage of Django-admin.py and manage.py?
 
@@ -437,6 +459,7 @@ DJANGO_SETTING_MODULE ortam değişkenini projenizin settings.py dosyasına işa
 
 <hr>
 <hr>
+
 ## Q23. What are the signals in Django?
 
 Ans: Signals are pieces of code which contain information about what is happening. 
@@ -451,6 +474,7 @@ Sinyalleri göndermek ve bu sinyalleri dinlemek için bir gönderici kullanılı
 
 <hr>
 <hr>
+
 ## Q24. What is the role of Cookie in Django?
 
 Ans: A cookie is a small piece of information which is stored in the client browser. 
